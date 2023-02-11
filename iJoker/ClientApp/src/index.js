@@ -6,6 +6,7 @@ import App from './App';
 
 const baseUrl = document.getElementsByTagName('base')[0].getAttribute('href');
 const rootElement = document.getElementById('root');
+rootElement.classList.add('h-100');
 const root = createRoot(rootElement);
 
 root.render(
